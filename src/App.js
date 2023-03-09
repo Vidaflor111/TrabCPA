@@ -13,9 +13,21 @@ function App() {
                 <Route path = "/api/v1/maze" element={<Maze/>} />
                 <Route path = "/api/v1/sudoku" element={<Sudoku/>} />
                 <Route path = "/api/v1/nqueens" element={<Nqueens/>} />
+                <Route path = "/api/v1/nqueens/:id" element={<ItemDetail/>} />
             </Routes>
         </Router>
     );
 }
-
 export default App;
+
+function ItemDetail(props) {
+    const itemId = props.match.params.id;
+    // Use o ID do item para buscar informações do item e renderizar a página de detalhes
+    return (
+      <div>
+        <h2>Detalhes do Item {itemId}</h2>
+        <p>Descrição do item</p>
+      </div>
+    );
+  }
+

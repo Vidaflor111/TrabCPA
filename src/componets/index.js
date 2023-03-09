@@ -11,9 +11,9 @@ function Header() {
             <div className='links'>
             <nav>
                 <ul>
-                    <li><Link to="/api/v1/nqueens">NQueens</Link></li>
-                    <li><Link to="/api/v1/sudoku">Sudoku</Link></li>
-                    <li><Link to="/api/v1/maze">Maze</Link></li>
+                    <button><a href="/api/v1/nqueens">NQueens</a></button>
+                    <button><a href="/api/v1/sudoku">Sudoku</a></button>
+                    <button><a href="/api/v1/maze">Maze</a></button>
                 </ul>
             </nav>
             </div>
