@@ -19,5 +19,6 @@ function Nqueens() {
         </div>
     );
 }
+export default Nqueens;
 
 
