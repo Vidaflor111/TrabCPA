@@ -13,7 +13,6 @@ function App() {
                 <Route path = "/api/v1/maze" element={<Maze/>} />
                 <Route path = "/api/v1/sudoku" element={<Sudoku/>} />
                 <Route path = "/api/v1/nqueens" element={<Nqueens/>} />
-                <Route path = "/api/v1/nqueens/:id" element={<ItemDetail/>} />
             </Routes>
         </Router>
     );
