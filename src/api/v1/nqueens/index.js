@@ -20,4 +20,4 @@ function Nqueens() {
     );
 }
 
-export default Nqueens;
+
