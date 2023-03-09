@@ -5,10 +5,10 @@ function Header() {
     return (
         
         <header>
-            <div>
+            <div className="titulo">
                 <h1>Jogos</h1>  
             </div>
-            <div>
+            <div className='links'>
             <nav>
                 <ul>
                     <li><Link to="/api/v1/nqueens">NQueens</Link></li>
