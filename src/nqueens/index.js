@@ -1,6 +1,5 @@
-
 import './index.css';
-import Header from '../../../componets';
+import Header from '../componets';
 function Nqueens() {
     return (
         
@@ -20,5 +19,3 @@ function Nqueens() {
     );
 }
 export default Nqueens;
-
-

@@ -3,7 +3,7 @@ import './App.css';
 
 import Maze from './api/v1/maze'
 import Home from './Home'
-import Nqueens from './api/v1/nqueens'
+import Nqueens from './nqueens'
 import Sudoku from './api/v1/sudoku'
 function App() {
     return (

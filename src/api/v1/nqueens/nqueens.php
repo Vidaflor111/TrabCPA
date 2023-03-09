@@ -32,6 +32,7 @@ function colocaRainha($tabuleiro, $linha)
 
 // Encontramos todas as soluções possíveis
 colocaRainha([], 0);
+echo "teste";
 
 $_SESSION['solucoes'] = $solucoes;
 header("Location: nqueens_solution.php?result=" . urlencode(serialize([])));
