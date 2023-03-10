@@ -12,7 +12,7 @@ function Header() {
                 <ul>
                     <button><a href="/api/v1/nqueens">NQueens</a></button>
                     <button><a href="/api/v1/sudoku">Sudoku</a></button>
-                    <button><a href="/api/v1/maze">Maze</a></button>
+                    <button><a href="/maze">Maze</a></button>
                     
                 </ul>
             </nav>
